@@ -33,7 +33,7 @@ class Obstacle: SKSpriteNode {
   /// - Parameters:
   ///   - spawn: The point at which the node will be placed in the GameScene.
   init(spawn: CGPoint) {
-    super.init(texture: nil, color: UIColor(white: 1, alpha: 0.2), size: CGSize(width: 40, height: 40))
+    super.init(texture: nil, color: .black, size: CGSize(width: 40, height: 40))
     position = spawn
     name = "obstacle"
   }
