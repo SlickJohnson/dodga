@@ -11,6 +11,7 @@ import SpriteKit
 class Player: SKSpriteNode {
   init() {
     super.init(texture: nil, color: .red, size: CGSize(width: 40, height: 40))
+    self.name = "player"
   }
 
   required init?(coder aDecoder: NSCoder) {

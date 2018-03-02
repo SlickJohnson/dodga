@@ -26,6 +26,7 @@ class Board: SKNode {
   init(size: CGSize) {
     super.init()
     self.size = size
+    self.name = "board"
     make()
   }
 
