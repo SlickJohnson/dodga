@@ -9,13 +9,26 @@
 import SpriteKit
 
 /// The stripes of a board held in arrays that describe the stripes orientation.
-struct Stripes {
+class Stripes {
   /// Stripes that are oriented horizontally.
   var horizontal = [Stripe]()
   /// Stripes that are oriented vertically.
   var vertical = [Stripe]()
+  /// The total number of stripes.
+  var count: Int {
+    get {
+      return all.count
+    }
+  }
+  /// All the stripes.
+  var all: [Stripe] {
+    get {
+      return horizontal + vertical
+    }
+  }
 }
 
+/// The game board that provides Stripe nodes for Obstacles nodes to travel.
 class Board: SKNode {
   /// The horizontal and vertical stripes that makeup the board.
   var stripes: Stripes!
@@ -23,6 +36,8 @@ class Board: SKNode {
   var size: CGSize!
 
   /// Creates a SKNode with Stripe nodes as its children.
+  ///
+  /// - Paremeter size: The size of the board which determiens the size of the stripes.
   init(size: CGSize) {
     super.init()
     self.size = size
@@ -37,6 +52,7 @@ class Board: SKNode {
 
 // MARK: Useful public methods
 extension Board {
+  /// Create the stripes for the board and places them in a grid layout.
   func make() {
     stripes = Stripes()
     // Make rows
