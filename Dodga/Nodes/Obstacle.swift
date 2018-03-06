@@ -36,6 +36,16 @@ class Obstacle: SKSpriteNode {
     super.init(texture: nil, color: .black, size: CGSize(width: 40, height: 40))
     position = spawn
     name = "obstacle"
+    setupObstaclePhysics()
+  }
+
+
+  func setupObstaclePhysics() {
+    self.physicsBody = SKPhysicsBody(rectangleOf: self.size)
+    self.physicsBody?.affectedByGravity = false
+    self.physicsBody?.categoryBitMask = PhysicsCategory.Obstacle
+    self.physicsBody?.collisionBitMask = PhysicsCategory.None
+    self.physicsBody?.contactTestBitMask = PhysicsCategory.Player
   }
 
   required init?(coder aDecoder: NSCoder) {

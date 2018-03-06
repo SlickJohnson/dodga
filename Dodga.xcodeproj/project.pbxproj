@@ -13,6 +13,7 @@
 		3D73B814203F81EB00F5D4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D73B812203F81EB00F5D4A7 /* Main.storyboard */; };
 		3D73B816203F81EB00F5D4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D73B815203F81EB00F5D4A7 /* Assets.xcassets */; };
 		3D73B819203F81EB00F5D4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D73B817203F81EB00F5D4A7 /* LaunchScreen.storyboard */; };
+		3D781F1D204F5A8600ADAFB5 /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D781F1C204F5A8600ADAFB5 /* PhysicsCategories.swift */; };
 		3D7F1A782049E87B00A60D88 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F1A772049E87B00A60D88 /* Player.swift */; };
 		3D7F1A7B2049EA9E00A60D88 /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F1A7A2049EA9E00A60D88 /* Obstacle.swift */; };
 		3D7F1A7D2049EB3700A60D88 /* Stripe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F1A7C2049EB3700A60D88 /* Stripe.swift */; };
@@ -28,6 +29,7 @@
 		3D73B815203F81EB00F5D4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D73B818203F81EB00F5D4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D73B81A203F81EB00F5D4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D781F1C204F5A8600ADAFB5 /* PhysicsCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
 		3D7F1A772049E87B00A60D88 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3D7F1A7A2049EA9E00A60D88 /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 		3D7F1A7C2049EB3700A60D88 /* Stripe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stripe.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				3D7F1A802049ED2400A60D88 /* Nodes */,
 				3D73B808203F81EB00F5D4A7 /* AppDelegate.swift */,
 				3D73B80E203F81EB00F5D4A7 /* GameScene.swift */,
+				3D781F1C204F5A8600ADAFB5 /* PhysicsCategories.swift */,
 				3D73B810203F81EB00F5D4A7 /* GameViewController.swift */,
 				3D73B812203F81EB00F5D4A7 /* Main.storyboard */,
 				3D73B815203F81EB00F5D4A7 /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 				3D7F1A782049E87B00A60D88 /* Player.swift in Sources */,
 				3D73B80F203F81EB00F5D4A7 /* GameScene.swift in Sources */,
 				3D7F1A7D2049EB3700A60D88 /* Stripe.swift in Sources */,
+				3D781F1D204F5A8600ADAFB5 /* PhysicsCategories.swift in Sources */,
 				3D7F1A7B2049EA9E00A60D88 /* Obstacle.swift in Sources */,
 				3D7F1A7F2049ECB900A60D88 /* Board.swift in Sources */,
 				3D73B811203F81EB00F5D4A7 /* GameViewController.swift in Sources */,
